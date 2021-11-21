@@ -7,6 +7,7 @@
   --primary-text-color: rgba(117, 117, 117, 1);
   --title-text-color: rgba(33, 33, 33, 1);
   --accent-color: rgba(33, 150, 243, 1);
+  --white: rgba(255, 255, 255, 1);
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -33,7 +34,7 @@ a > .accent {
   letter-spacing: 0.02em;
 }
 .contacts-link {
-  color: var(--primary-text-color);
+  color: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -45,4 +46,30 @@ a > .accent {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
+}
+/*Герой*/
+.hero-title {
+  color: var(--white);
+  background-color: var(--accent-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.hero-btn {
+  width: 200px;
+  height: 50px;
+  background-color: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  color: var(--white);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
 }
