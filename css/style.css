@@ -8,14 +8,14 @@
   --title-text-color: rgba(33, 33, 33, 1);
   --accent-color: rgba(33, 150, 243, 1);
   --white: rgba(255, 255, 255, 1);
-  --button-background-color:rgba(245, 244, 250, 1);
+  --button-background-color: rgba(245, 244, 250, 1);
 }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--primary-text-color);
 }
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 /*Лого*/
 a > .accent {
@@ -87,9 +87,8 @@ a > .accent {
 }
 
 /*Особенности*/
-}
 .features-title {
-  color:var(--title-text-color);
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -136,13 +135,13 @@ address {
   letter-spacing: 0.03em;
 }
 /* Фильтры в Портфолио */
-.filter-list .btn{
+.filter-list .btn {
   background-color: var(--button-background-color);
   width: 130px;
   height: 38px;
   left: 976px;
   top: 174px;
-  
+
   color: var(--title-text-color);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -153,22 +152,22 @@ address {
   cursor: pointer;
 }
 .filter-list .btn:hover,
-.filter-list .btn:focus{
-    background-color: var(--accent-color);
-    color: var(--white);
+.filter-list .btn:focus {
+  background-color: var(--accent-color);
+  color: var(--white);
 }
 /* Портфолио работы */
-.porfolio-list-title{
+.porfolio-list-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.portfolio-list-link{
+.portfolio-list-link {
   text-decoration: none;
 }
-.porfolio-list-type{
+.porfolio-list-type {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.88;
