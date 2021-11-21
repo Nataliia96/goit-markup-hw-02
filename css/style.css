@@ -24,7 +24,7 @@ a > .accent {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-/*Навигация*/
+/*Навигация + контакты*/
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -32,6 +32,17 @@ a > .accent {
   line-height: 1.14px;
   letter-spacing: 0.02em;
 }
-.site-nav .link.current {
+.contacts-link {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link.current,
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--accent-color);
 }
