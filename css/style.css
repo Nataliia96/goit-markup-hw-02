@@ -169,7 +169,9 @@ address {
   text-decoration: none;
 }
 .porfolio-list-type{
+  color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  
 }
