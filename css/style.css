@@ -56,6 +56,7 @@ a > .accent {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero-btn {
   width: 200px;
@@ -72,4 +73,18 @@ a > .accent {
   letter-spacing: 0.06em;
 
   cursor: pointer;
+}
+/*Особенности*/
+.features-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
