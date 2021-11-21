@@ -8,6 +8,7 @@
   --title-text-color: rgba(33, 33, 33, 1);
   --accent-color: rgba(33, 150, 243, 1);
   --white: rgba(255, 255, 255, 1);
+  --button-background-color:rgba(245, 244, 250, 1);
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -67,11 +68,13 @@ a > .accent {
   text-transform: uppercase;
 }
 .hero-btn {
-  width: 200px;
-  height: 50px;
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
 
   color: var(--white);
   font-weight: 700;
@@ -99,7 +102,8 @@ a > .accent {
   letter-spacing: 0.03em;
 }
 /* Заголовки секций */
-h2 {
+.projects-section-title,
+.team-section-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -115,13 +119,11 @@ h2 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 .team-members-position {
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 /* Адрес в футере */
@@ -133,7 +135,41 @@ address {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-/* Фильрты в Портфолио */
+/* Фильтры в Портфолио */
 .filter-list .btn{
-    
+  background-color: var(--button-background-color);
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  top: 174px;
+  
+  color: var(--title-text-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  cursor: pointer;
+}
+.filter-list .btn:hover,
+.filter-list .btn:focus{
+    background-color: var(--accent-color);
+    color: var(--white);
+}
+/* Портфолио работы */
+.porfolio-list-title{
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-list-link{
+  text-decoration: none;
+}
+.porfolio-list-type{
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
 }
