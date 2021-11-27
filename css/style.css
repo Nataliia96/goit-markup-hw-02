@@ -31,7 +31,17 @@ ul {
 a > .accent {
   color: var(--accent-color);
 }
+.logo {
+  margin-right: 93px;
 
+  color: var(--title-text-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
 /*Навигация + контакты*/
 .site-nav {
   display: flex;
@@ -51,23 +61,12 @@ a > .accent {
 .header {
   display: flex;
   align-items: center;
-  background-color: var(--white);
 }
 .site-nav .item:not(:last-child),
 .contacts .item:not(:last-child) {
   margin-right: 50px;
 }
-.logo {
-  margin-right: 93px;
 
-  color: var(--title-text-color);
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
 .contacts-link,
 .site-nav .link {
   padding: 32px 0;
@@ -98,7 +97,13 @@ a > .accent {
   color: var(--accent-color);
 }
 /*Герой*/
+.hero-content {
+  text-align: center;
+}
 .hero-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+
   color: var(--white);
   background-color: var(--accent-color);
   font-weight: 900;
@@ -109,6 +114,9 @@ a > .accent {
   text-transform: uppercase;
 }
 .hero-btn {
+  padding: 10px 32px;
+  display: inline-block;
+
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -118,8 +126,8 @@ a > .accent {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  text-align: center;
   letter-spacing: 0.06em;
+  text-align: center;
 
   cursor: pointer;
 }
